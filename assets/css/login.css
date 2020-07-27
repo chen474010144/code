@@ -1,0 +1,53 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../images/login_bg.jpg') no-repeat center;
+    background-size: cover;
+}
+/* 登录/注册的大盒子样式 */
+.loginAndRegBox {
+    width: 400px;
+    height: 310px;
+    background-color: #fff;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+/* 头部盒子的样式 */
+.title-box {
+    height: 60px;
+    background: url(../images/login_title.png) no-repeat center;
+}
+/* 注册盒子的样式 */
+.reg-box {
+    display: none;
+}
+/* 给表单域设置内边距 */
+.layui-form {
+    padding: 0 30px;
+}
+/* 给links 设置 flex 布局，让里面 a标签 居右边显示 */
+.links {
+    display: flex;
+    justify-content: flex-end;
+}
+/* 设置 links 里面 a链接的字体大小 */
+.links a {
+    font-size: 12px;
+}
+/* 修改 layui-form-item  div里面的 字体图标 */
+.layui-form-item {
+    position: relative;
+}
+.layui-icon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.layui-input {
+    padding-left: 30px;
+}
