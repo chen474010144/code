@@ -1,11 +1,4 @@
-/*
- * @Author: your name
- * @Date: 2020-07-27 17:11:34
- * @LastEditTime: 2020-07-27 21:01:17
- * @LastEditors: Please set LastEditors
- * @Description: In User Settings Edit
- * @FilePath: \code1\assets\js\login.js
- */
+
 $(function () {
     // 点击“去注册账号”的链接
     $('#link_reg').on('click', function () {
